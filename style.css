@@ -421,6 +421,7 @@ h2.section-title {
 .project-card {
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .project-content {
@@ -444,6 +445,7 @@ h2.section-title {
 .project-content p {
     color: var(--text-secondary);
     font-size: 0.95rem;
+    flex-grow: 1; /* This pushes the links to the absolute bottom */
 }
 
 /* Achievements & Testimonial */
