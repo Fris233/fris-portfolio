@@ -418,6 +418,17 @@ h2.section-title {
     gap: 2rem;
 }
 
+.project-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 .project-content h3 {
     font-size: 1.4rem;
     margin-bottom: 0.5rem;
